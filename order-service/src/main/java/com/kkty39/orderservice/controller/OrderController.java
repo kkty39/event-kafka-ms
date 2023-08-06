@@ -3,7 +3,10 @@ package com.kkty39.orderservice.controller;
 import com.kkty39.basedomains.dto.Order;
 import com.kkty39.basedomains.dto.OrderEvent;
 import com.kkty39.orderservice.kafka.OrderProducer;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
 
